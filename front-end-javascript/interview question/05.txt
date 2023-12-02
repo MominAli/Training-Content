@@ -1,0 +1,29 @@
+1. Question: What is the difference between synchronous and asynchronous JavaScript? 
+  Answer: Synchronous JavaScript executes code sequentially, blocking further execution until the task is completed, while asynchronous JavaScript allows tasks to be executed independently, without blocking other operations.
+
+2. Question: How can you handle cross-origin requests in JavaScript? 
+  Answer: Cross-Origin Resource Sharing (CORS) can be handled by the server sending appropriate CORS headers to indicate which origins are allowed to access its resources.
+
+3. Question: Explain the concept of Promises in JavaScript. 
+  Answer: Promises are objects used for handling asynchronous operations in JavaScript, representing a future value that may resolve to a result or an error.
+
+4. Question: Describe the role of the "use strict" directive in JavaScript. 
+  Answer: The "use strict" directive enables strict mode, enforcing modern JavaScript best practices and preventing certain error-prone behaviors.
+
+5. Question: How do you optimize the rendering performance of a React application? 
+  Answer: Optimizing rendering performance involves using techniques like memoization, PureComponent, and React's memo to reduce unnecessary re-renders.
+
+6. Question: What is a Higher-Order Component (HOC) in React? 
+  Answer: HOC is a design pattern in React that allows you to wrap a component with additional functionality by returning a new component.
+
+7. Question: How can you improve the Search Engine Optimization (SEO) of a Single Page Application (SPA)? 
+  Answer: Implement server-side rendering (SSR) or use techniques like pre-rendering and dynamic rendering to improve SEO for SPAs.
+
+8. Question: Explain the role of the Fetch API in modern web development. 
+  Answer: The Fetch API provides a native way to make HTTP requests in JavaScript, offering a more modern and flexible alternative to XMLHttpRequest.
+
+9. Question: Describe the concept of Code Splitting and its benefits in web applications. 
+  Answer: Code Splitting is a technique used to split a large JavaScript bundle into smaller chunks, improving initial loading times and reducing bandwidth usage.
+
+10. Question: How can you optimize the performance of CSS animations and transitions? 
+  Answer: Optimizations include using hardware-accelerated properties like "transform" and "opacity," minimizing the use of expensive properties like "box-shadow," and avoiding excessive nesting in animations.

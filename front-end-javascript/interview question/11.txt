@@ -1,0 +1,29 @@
+More interview questions and answers can be found in my earlier posts.
+
+Interview questions focused on objects in JavaScript:
+
+1. **What is an object in JavaScript?**
+2. **How do you create an object in JavaScript?**
+3. **What are the different ways to create objects in JavaScript?**
+4. **How do you access properties of an object?**
+5. **What is the difference between dot notation and bracket notation when accessing object properties?**
+6. **How can you add or modify properties of an object?**
+7. **Explain the concept of prototype in JavaScript objects.**
+8. **What is the purpose of the `Object.create()` method?**
+9. **What is the `this` keyword in JavaScript and how is it used within objects?**
+10. **How can you loop through all the properties of an object?**
+11. **Explain what a constructor function is and how it's used to create objects.**
+12. **What is object destructuring and how does it work in JavaScript?**
+13. **What is the difference between shallow copy and deep copy of an object?**
+14. **How can you check if a property exists in an object?**
+15. **Explain the concept of inheritance in JavaScript objects.**
+16. **What are getter and setter methods in objects? How are they used?**
+17. **How can you prevent new properties from being added to an object?**
+18. **What is the purpose of the `Object.keys()`, `Object.values()`, and `Object.entries()` methods?**
+19. **What is the difference between `Object.assign()` and spread operator (`...`) when it comes to copying objects?**
+20. **Explain the concept of encapsulation in the context of objects in JavaScript.**
+21. **How can you merge multiple objects into one?**
+22. **What is the `instanceof` operator used for when dealing with objects?**
+23. **Explain the difference between objects and maps in JavaScript.**
+24. **How does prototypal inheritance differ from classical inheritance in object-oriented programming?**
+25. **What is the purpose of the `hasOwnProperty()` method in JavaScript objects?**

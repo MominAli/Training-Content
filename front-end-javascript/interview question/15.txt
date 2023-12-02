@@ -1,0 +1,29 @@
+Q: What is a REST API?
+A: A REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for building and interacting with web services using HTTP methods for data exchange.
+
+Q: What are the main characteristics of a RESTful API?
+A: REST APIs are stateless, use standard HTTP methods (GET, POST, PUT, DELETE), utilize URLs for resource identification, support representation formats like JSON or XML, and are designed to be cacheable.
+
+Q: How does a client communicate with a REST API?
+A: Clients communicate with a REST API by sending HTTP requests (such as GET, POST, PUT, DELETE) to specific endpoints (URLs) provided by the API, and the server responds with the requested data or performs the specified actions.
+
+Q: What is the purpose of HTTP methods in a REST API?
+A: HTTP methods define the actions that clients can perform on resources. GET retrieves data, POST submits new data, PUT updates existing data, and DELETE removes data from the server.
+
+Q: How is data typically represented in a REST API response?
+A: Data is often represented in a REST API response using formats like JSON (JavaScript Object Notation) or XML (eXtensible Markup Language), making it easy for clients to parse and understand the information.
+
+Q: What is an API endpoint?
+A: An API endpoint is a specific URL within a REST API that represents a resource. Clients use endpoints to access or manipulate data by sending HTTP requests to these URLs.
+
+Q: How does authentication work in a REST API?
+A: REST APIs commonly use authentication methods such as API keys, tokens (like JWT), or OAuth to ensure that only authorized users or applications can access and interact with the API's resources.
+
+Q: What is versioning in a REST API?
+A: API versioning is the practice of maintaining different versions of an API to ensure compatibility as the API evolves over time. It allows clients to specify which version of the API they want to use.
+
+Q: What is rate limiting in the context of REST APIs?
+A: Rate limiting is a technique used to control the number of requests a client can make to an API within a certain timeframe, preventing abuse and ensuring fair usage for all users.
+
+Q: Can a REST API be secured using HTTPS alone?
+A: Yes, HTTPS (Hypertext Transfer Protocol Secure) provides encryption and secure communication between the client and server. It helps protect sensitive data and prevent man-in-the-middle attacks.

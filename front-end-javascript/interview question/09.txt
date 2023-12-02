@@ -1,0 +1,24 @@
+More interview questions and answers can be found in my earlier posts.
+
+1. Q: How do you resolve a merge conflict?
+A: Merge conflicts occur when Git cannot automatically merge changes from different branches. To resolve a conflict, you need to manually edit the conflicting files, remove the conflict markers, and then commit the resolved changes.
+
+2. Q: How do you merge one branch into another in Git?
+A: You can use the git merge command. For example, to merge the changes from a feature branch into the main branch, you would first switch to the main branch (git checkout main) and then use git merge feature-branch.
+
+3. Q: How can you undo the most recent commit in Git, but keep the changes as uncommitted modifications?
+A: You can use the command git reset HEAD~1 to undo the most recent commit and move the changes to the staging area. Then use git reset --hard or git stash to remove the changes from the staging area.
+
+4. Q: What are the basic Git commands you would use to initialize a repository and commit changes?
+A: git init: Initializes a new Git repository in the current directory.
+git add <filename>: Adds a specific file to the staging area.
+git commit -m "Commit message": Commits the staged changes with a descriptive message.
+
+5. What is the difference between Git and GitHub?
+A: Git is the version control system itself, while GitHub is a web-based platform that provides hosting services for Git repositories. GitHub adds a user-friendly interface for managing repositories, collaborating on projects, and facilitating social coding.
+
+6. Q: What is a .gitignore file used for?
+A: The .gitignore file is used to specify files or patterns that Git should ignore when tracking changes. This is useful for excluding files like build artifacts, temporary files, or sensitive information from being committed to the repository.
+
+7. Q: How can you revert a commit that has already been pushed to a remote repository?
+A: To revert a commit that has been pushed to a remote repository, you can use the git revert command. This creates a new commit that undoes the changes introduced by the specified commit.

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log("start test");
+
+        /* pattern 01 
+
+        *
+        **
+        ***
+        ****
+        *****
+
+        */
+
+        function leftTringlePattern(n) {
+            string = "";
+            for (row = 1; row <= n; row++) {
+                for (col = 1; col <= row; col++) {
+                   string = string + col;
+                }
+                string += "\n";
+            }
+            console.log(string);
+
+        }
+        leftTringlePattern(9);
+
+        function rightTringlePattern(n){
+            rstring="";
+            //printing number of lines or row 
+            for (let row = 0; row <=n; row++) {
+
+                //printing spaces
+                for (let spaces = 0; spaces < n-row; spaces++) {
+                    rstring = rstring + " ";
+                    
+                }
+                //printing star
+                for (let k = 0; k < row; k++) {
+                    rstring = rstring + "*";
+
+                }
+                rstring =rstring + "\n";
+            }
+            console.log(rstring);
+
+        }
+
+        rightTringlePattern(5);
+
+        let nc = 5; // row or column count
+// defining an empty string
+let dstring = "";
+
+for(let i = 0; i < nc; i++) { // external loop
+  for(let j = 0; j < nc-i; j++) { // internal loop
+    dstring += "*";
+  }
+  // newline after each row
+  dstring += "\n";
+}
+// printing the string
+console.log(dstring);
+
+
+    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+1. **What is the difference between `null` and `undefined` in JavaScript?**
+  - `null` is an explicitly assigned value that represents the absence of any value.
+  - `undefined` is a variable that has been declared but has not been assigned a value.
+
+2. **What is the purpose of the `defer` attribute in the `<script>` tag?**
+  The `defer` attribute tells the browser to download the script while parsing the HTML but execute it only after the HTML parsing is complete.
+
+3. **What is the purpose of the `async` attribute in the `<script>` tag?**
+  The `async` attribute tells the browser to download the script in the background without blocking HTML parsing, and it will execute the script as soon as it's downloaded.
+
+4. **Explain the concept of CORS (Cross-Origin Resource Sharing).**
+  CORS is a security feature implemented by web browsers that restricts web pages from making requests to a different domain than the one that served the web page. It ensures better security for web applications.
+
+5. **What is the `fetch()` API in JavaScript?**
+  The `fetch()` API is used to make network requests, typically to fetch resources from a server. It returns a promise that resolves to the Response object representing the response to the request.
+
+6. **What are Web Components?**
+  Web Components are a set of web platform APIs that allow you to create reusable custom elements with their own encapsulated HTML, CSS, and JavaScript.
+
+7. **What is Event Bubbling and Event Capturing in the DOM?**
+  - Event Bubbling: When an event is triggered on a DOM element, it first fires on that element, then on its parent, and so on, propagating up the DOM tree.
+  - Event Capturing: The opposite of event bubbling, where the event is captured at the topmost parent element and then propagates down to the target element.
+
+8. **What is the significance of `z-index` in CSS?**
+  The `z-index` property is used to control the stacking order of elements. Elements with higher `z-index` values will be displayed above elements with lower values.
+
+9. **How do you optimize website performance?**
+  Performance optimization can involve various techniques, such as:
+  - Minifying and compressing CSS, JavaScript, and images.
+  - Using responsive images and lazy loading.
+  - Reducing HTTP requests and using caching.
+  - Implementing server-side rendering or code-splitting for faster initial loading.
+  - Optimizing database queries and server code.

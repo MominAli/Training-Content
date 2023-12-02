@@ -1,0 +1,687 @@
+Frontend development skills for Product based companies 🔥
+
+A roadmap is the best way to kick-start your attempt to become a frontend developer.
+
+Bare-minimum topics for working on product-based organisation.
+
+𝗕𝗮𝘀𝗶𝗰 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀:
+1. Data types
+2. Functions
+3. Scope in JavaScript
+4. Closure
+5. Event loop
+6. Prototype and prototype chain
+7. Class and inheritance
+8. DOM
+9. bind/call/apply
+10. Promise
+11. WebAPI
+12. Task queue
+13. Call stack
+14. Async/await
+15. Generators
+16. Typescript
+
+𝗕𝗮𝘀𝗶𝗰 𝗛𝗧𝗠𝗟 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀:
+1. block element
+2. import
+3. etc - infinite questions
+
+𝗕𝗮𝘀𝗶𝗰 𝗖𝗦𝗦 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀:
+1. Class and other selectors
+2. Pseudo Classes
+3. Box Model
+4. Pseudo Elements
+5. CSS type - flex, grid, normal
+6. How to centre
+7. pseudo classes and elements
+8. All element states - active, hover
+9. Media queries
+10. Pre-processors - SCSS or LESS
+1. mixins
+11. CSS constants
+12. BEM
+13. Import
+
+𝗕𝗮𝘀𝗶𝗰 𝗪𝗲𝗯 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀:
+1. Page rendering cycle
+2. http/https/https2
+3. CORS
+4. Local storage/Session storage
+5. Cookie
+6. JWT
+7. XHR
+8. Micro Frontend
+9. REST/GraphQL/Socket connection
+10. Browser Concepts
+11. Debugging Application
+12. Chrome Dev Tool Features
+
+𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀:
+1. OOPs concept
+2. Design Patterns
+a. Singleton
+b. Provider
+c. Prototype
+d. Observer
+e. Module
+f. HOC
+
+3. Understanding V8 in depth
+a. JIT
+b. Interpreter
+c. Execution
+d. Compiler
+4. Currying
+
+𝗕𝗮𝘀𝗶𝗰 𝗥𝗲𝗮𝗰𝘁𝗝𝗦 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀 (bonus): -
+1. Introduction JSX
+2. React Component
+3. Component State and Props
+4. Adding Style (CSS)
+5. Functional and Class components
+6. React Lifecycle Methods
+7. Virtual DOM
+8. React Hooks
+9. Custom Hooks
+10. Context API
+11. Synthetic Events
+12. Routing
+13. Data Flow (Redux/Flux)
+14. Server-Side Rendering
+15. Unit Testing
+16. Jest & React Testing library
+17. Mocking Data
+18. Understanding Webpack (Bundler)
+19. Babel, env, prettier, linter
+
+Save it for future reference ❤️
+
+
+
+Do's and Dont's I followed which made me a good Frontend Engineer.
+
+3 Tips to overcome fear of FrontEnd Engineering as career 🔥
+
+[1] JavaScript - Understand & give yourself time to get through the fundamental concepts of JS first.
+
+[2] CSS - Learn the CSS core concepts first. CSS Units, Selectors, Box Model, Positions, Flexbox. Mostly you’ll need only these.
+
+[3] UI - Improve your thought process understanding UI components, Design, State, Logic. You’ve ample applications & components in many Websites to explore.
+
+3 things to know about DSA in FrontEnd Interviews 🔥
+
+[1] It’s a Problem solving round not a DSA round where you expect direct Knapsack, Djikstra, Prim’s Algorithms.
+
+[2] No direct LeetCode problems but you’ll be asked Implementation based Quesstions like Polyfills, Flatten Array, Debounce, ‘N’ async tasks in series.
+
+[3] Important basic DS concepts to know - Recursion, Trees, Graphs, DFS & BFS Traversals.
+
+
+3 Tips to follow with your Interviewer in FrontEnd Interviews 🔥
+
+[1] Dry-run - Don’t just blindly say output of Questions. Think, dry-run, apply concepts & give correct answer.
+
+[2] Explanation - Don’t just say Final output answer. Explain what’s going on in code step-by-step like concepts used.
+
+[3] Discussion - Don’t just start coding. Discuss what & how you’re thinking to approach or code this.
+
+
+3 Important concepts where you’ll go wrong in FrontEnd Interviews 🔥
+
+Fundamentally, If you understand the differences between these concepts, your good to go.
+
+[1] Prototypes vs __proto__
+[2] Lexical Scope vs Closures
+[3] Callback Queues vs Microtask Queues
+
+3 mistakes to avoid in FrontEnd Machine Coding (UI Rounds) 🔥
+
+[1] Not giving enough time to think & design your Component’s state.
+
+[2] Not focussing more on logic & implementation, but worried of CSS.
+
+[3] Focussing more on writing Clean Code in first go itself.
+
+
+3 reasons to prove FrontEnd is not only UI 🔥
+
+[1] Web Assembly - You can write code in languages like Rust, C, C++ & run in Browsers achieving nearly native performance boost.
+
+[2] PWAs - You can build nearly Native Apps with Web Technologies. Heard of these apps, Facebook Lite, Instagram Lite, Twitter Lite.
+
+[3] Web Security - FrontEnd is most prone to attacks & compromising it leads the Golden path to your Database, Servers, Services,..
+
+
+
+
+
+❌ Things which I didn't
+
+• Building toy projects for resume
+• Learning multiple Tech stacks
+• Referring 20mins Youtube tutorials only
+• Procrastinate on what to learn
+• Bad Resume, no technical details, broken links
+• Commenting interested on LinkedIn
+
+✅ Things which I did
+
+• Built complex frontend projects (vanilla js)
+• Focussed on core concepts of JS & Web
+• Learnt one in-demand skill (React)
+• Habit of reading Docs, Tech Talks 🎧
+• Fine tuned resume with all Technical highlights
+• Make 20-30 valuable connections from companies on LinkedIn
+
+Doing your Frontend Interview Preparation this way - (might not be effective!!)
+
+❌ Practice number of questions of JS concepts
+
+❌ Just code previously asked Machine Coding Questions
+
+❌ Having very minimal knowledge on my projects
+
+❌ Trying to learn all of Web Fundamentals overnight
+
+This pattern of learning has always helped me,
+
+✅ Learn JS concepts well to tackle any questions
+
+✅ Give time to think on UI component’s State & Data flow (Most Important)
+
+✅ Knowing ins & outs of my projects, challenges, Tech (Projects are your Proof of Concepts)
+
+✅ Sparing time on weekends to explore around Fundamentals slowly.
+
+
+
+DSA, Leetcode is trending. But don’t confuse it in your Frontend Interviews ❌
+
+Top Unicorn companies & Growth Startups focus on your core JavaScript + Problem solving ability 💡
+
+1️⃣ It’s a Problem solving round not a traditional DSA round where you expect direct Knapsack, Djikstra, Prim’s Algorithms.
+
+2️⃣ You need not grind Leetcode. You’ll be asked Implementation based Quesstions like Polyfills, Flatten Array, Debounce, ‘N’ async tasks in series.
+
+3️⃣ Important & Basic DSA concepts to know - Recursion, Trees, Graphs, DFS & BFS Traversals.
+
+
+My 3 step strategy on how you can master Frontend Engineering in deep:
+
+• 10mins Youtube video doesn’t help
+• Learning the fastest way doesn’t help
+• Skipping the fundamentals doesn’t help
+• Learning just the code instead of concepts doesn’t help
+
+I would want you guys to try it this way. It’s slow process, but that’s what makes an impact in long run ⚡️
+
+1️⃣ Stop learning just code of any new Tech. It will change.
+
+For example, React is pushing to migrate from class based to functional components. A lot of new APIs.
+
+2️⃣ Every Framework or Library comes with a purpose to solve a problem statement.
+
+Learn the ‘why’ of the problem statement, strategies, patterns, underlying mechanisms used to solve it.
+
+3️⃣ Don’t just end up with Youtube tutorial, “15 mins of this Tech, that Tech”.
+
+Go deep. Spend time listening to conferences, tech talks/articles, podcasts by the official developers who‘ve built/contributed.
+
+1️⃣ This can be game changer in your next Frontend Interviews.
+
+Thought process 💡
+
+Something which is very much visible in your ‘Machine Coding’ rounds.
+
+This round is my favorite ❤️ in every Unicorn companies I interviewed,
+
+→ Flipkart, BrowserStack, Zoho, Observe(dot)ai ,
+
+Thought Process is not only how you discuss. But also how you develop.
+
+• How ‘fast’ you think ⚡️
+• How fast you convert it into ‘code’
+• Alternative & practical approaches
+• The ‘why’ behind your thought process
+
+How did I develop it?
+
+→ It’s because of my Frontend Intensive projects I built.
+
+• Logical decisions
+• Complex UI structuring
+• Managing raw state (No React)
+• Understanding Data flow
+• Event Management
+• Code modularity
+• Technical challenges
+
+I want to you guys to build complex Frontend projects to ease your next ‘Machine Coding’ round
+
+
+
+Companies are ready to pay >15-20LPA for a Frontend Engineer with ‘zero DSA skills’ 💰
+
+Learning JavaScript can get you great earning opportunities 💰 (>10LPA)
+
+When it comes to Frontend, you know JS is the only thing. You don’t need to confuse learning multiple languages.
+
+Your career will always be safe, because of the super & ever growing Ecosystem.
+
+The Most In-demand skill in Job Market “React”, is built on top of JS.
+
+Very straightforward Interview patterns, judging your core & conceptual knowledge of JS.
+
+👉 You can grab a high paying job
+👉 You can freelance building great projects
+👉 You can teach your Frontend skills
+
+Absolutely, YES.
+
+Multiple High Growth Startups & Unicorns 🦄 like,
+
+(BrowserStack, Razorpay, Cred, Stripe, Thoughtworks, Coinbase, Gojek, Twilio)
+
+But, you’ve to be really good with Frontend Engineering. Becuase that’s what their Interview process will be evaluated on.
+
+For that, the ‘Resume Shortlisting’ has to happen.
+
+Let it be via,
+- Recruiters
+- Referrals
+- Career Page/ATS
+
+Now, inorder to get shortlisted your resume needs to stand out.
+
+The importance of PROJECTS in your resume,
+
+- Shows your Technical skills & credibility
+- Covers 40-50% of your resume section
+- Creates a trust factor for people to refer
+
+
+
+
+
+ WEB FUNDAMENTALS
+
+• Async, Defer scripts
+• DOM manipulation
+• Security - CORS, CSRF
+• Events - Bubble, Capture, Target, Delegation
+• Storage - Cookies, Local, Session
+• HTTP - Methods, Status, Headers, Query Params
+
+
+HTML 5
+
+1 https://www.w3schools.com/html/
+2 https://www.w3schools.com/html/html_responsive.asp
+
+1️⃣ HTML
+
+(Scope of questions are less here, but can be asked many general stuff)
+
+• Block, Inline, Inline-Block
+• Event handling on elements
+• Semantic Elements
+• Impact of display none, hidden, opacity
+
+
+CSS 3
+
+3 Tips to overcome fear of CSS in FrontEnd Interviews 🔥
+
+[1] Learn the core concepts of CSS first. Topics like CSS Units, Selectors, Specificity, Box Model, Positions, Flexbox.
+
+[2] Build 1-2 small CSS based projects applying the above core concepts to have Hands-on practice.
+
+[3] You need not remember all of the CSS properties, values. Many of those are use-case dependent & you can just Google it. CSS is just highly over-rated fear for Interviews.
+
+
+1 https://www.w3schools.com/css/
+2 https://css-tricks.com/debugging-css/
+3 https://debuggingcss.com/ ( we will purches later ) 
+
+
+
+2️⃣ CSS
+
+• Box sizing
+• Box model
+• Positions
+• CSS units
+• Selector specificity
+• Flexbox
+
+
+
+CSS FRAME WORK
+
+1 https://tailwindcss.com/
+2 https://www.w3schools.com/bootstrap5/
+
+
+JAVASCRIPT
+
+1 https://www.w3schools.com/js/
+2 https://www.tutorialstonight.com/js/javascript-tutorial
+3 https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP
+4 https://learnjavascript.online/app.html (refer only topic from menu bar )
+5  https://learnersbucket.com/javascript-interview-guide-ebook/ ( we will learn in end ) 
+
+
+IMPORTANT JAVASCRIPT CONCEPT TO START REACTJS 
+
+- arrow function
+- array methods
+- normal functions
+- spread operators
+- function expressions
+- default imports
+- handling events
+- lexical scoping
+- String Methods
+- named imports
+- async await
+- destructuring
+- map
+- filter
+- reduce
+- loops
+- promises
+- callbacks
+- variables
+- scopes
+- working with objects
+- asynchronous JS
+
+
+NATIVE JAVASCRIPT PROJECT 
+
+1 https://www.tutorialstonight.com/html-code-for-registration-form-with-validation
+2 https://www.tutorialstonight.com/age-calculator-in-javascript
+3 https://www.tutorialstonight.com/javascript-bmi-calculator
+4 https://www.tutorialstonight.com/html5-digital-clock-with-javascript 
+
+
+ES6 / ECMA SCRIPT
+
+https://www.w3schools.com/js/js_es6.asp
+
+
+REACT JS 
+
+1 https://namastedev.com/namaste-react/
+
+3 Most common mistakes to avoid while learning React 🔥
+
+[1] Not understanding Type coercion & Short circuiting well, which leads to unpredictable bugs.
+
+[2] Not understanding the concepts of Referential Equality & Mutations. It’s important to understand State & Props.
+
+[3] Not understanding Closures well, which leads to Stale State, multiple state updates using setState.
+
+3 things to consider learning as Advanced React Developer 🔥
+
+[1] Error Handling - Make use of Error Boundaries across your Components to ensure Consistent Behaviour in App.
+
+[2] Testing - Apply good practices of testing your components, unit testing with Jest, React Testing Library.
+
+[3] Design Patterns - Learn patterns like HOCs, Render Props, Custom Hooks, Compound Components,.. for re-useability, composability, logic isolation.
+
+
+Become a Pro React Developer? Follow the steps,
+
+▶️ Build solid JS projects
+
+Helps you realize why React is even required at the first place. Complex state management, janky UI updates, Project organizing, Data flow.
+
+▶️ Strengthen core concepts of JS
+
+React is heavily dependent on concepts like closures, ‘this’ keyword. Helps you trace your code’s working & debug faster.
+
+▶️ Learn Design Patterns
+
+Patterns like Render props, HOCs, Compound components, Custom Hooks, Composition. Helps you write better quality code with re-useability, logical isolation.
+
+▶️ Write Typescript
+
+Make your code more predictable, having full control of the code flow with static types with less room for errors. The industry is adopting it, so do you.
+
+
+REACT JS  PROJECT
+
+1 YOUTUBE clone
+2 SWIGYY clone
+
+
+
+INTERVIEW PREPATION TIPS / TRICKS
+
+Dont aim 100% rather aim 70% while preparing for Frontend Interviews.
+
+Often we get stuck in an endless loop ♾️ underestimating yourself that you’re not prepared yet.
+
+Take a chance, don’t decide ❌ the result yourself way before even attempting the Interview.
+
+But don’t skip core points / basics,
+
+Learning new Techs is not bad, in fact it's good for projects 📈 but understand the difference when it comes to Interviews.
+
+(Interviewers are always looking for candidates with strong fundamental knowledge & problem-solving ability)
+
+
+
+Three tips to be in Interview mode for Frontend Interviews 🔥
+
+1️⃣ Javascript Round:
+
+Solve 1 or 2 JS questions daily (conceptual, output, implementation based). Just like you do Leetcode daily challenge.
+
+2️⃣ Machine Coding Round:
+
+Keep building one small UI project on every other weekends (vanilla JS and react based).
+
+3️⃣ Engineering Manager Round:
+
+Read some technical blogs, articles or listen to podcasts of official contributors ⚡️around fundamental concepts of web, javascript in your free time.
+
+
+1. Javascript
+2. Machine Coding / React / Angular 
+3. DSA
+4. System design
+5. Managerial Round
+
+
+1 Most FrontEnd Interviews are categorized in these 3 buckets - JavaScript Round, Machine
+  Coding Round, UI Tech Round
+
+A. JavaScript Round
+
+	For Conceptual Based
+	For Output Based
+	For Implementation Based 
+
+B. Machine Coding (UI) Round
+
+
+React
+
+Machine coding (around 60-120min)
+
+Here’s my 3 step breakdown on cracking Frontend Machine Coding rounds.
+
+🔸 Questions pattern
+
+(For longer Interview hours - Logical feature of Apps)
+
+• WhatsApp Web UI
+• Instagram Comments Section
+• Design Movies Page
+• Design Carrom Board
+
+(For shorter Interview hours - Small UI components)
+
+• Dropdown
+• Autocomplete
+• Multi Select
+• Star Ratings
+
+🔸 Practice
+
+(99% of the times you’ll only need these coding utilities)
+
+• useState
+• useEffect
+• Context
+• Fetch API
+• CSS flexbox, positions
+• ES6 - map, filter, spread, arrow funcs
+• setTimeout, setInterval
+• Event handling
+
+🔸 Mistakes
+
+(Don’t waste your time on these)
+
+• Writing Clean code
+• File structure
+• Beautifying UI
+• Breaking UI to 20, 30 useless components
+
+Focus on logical implementation with a working model first. This is what Interviewers care about.
+
+Ref https://onestopfrontend.graphy.com/courses/One-Stop-Frontend-Projects-We-build-zero-toy-projects--6465e1cae4b0ad0c60a01e86-6465e1cae4b0ad0c60a01e86
+
+
+
+💁‍♂️ Star Rating
+💁‍♂️ Design Pop Over
+💁‍♂️ Design Accordion
+💁‍♂️ Design Carousel
+💁‍♂️ Design grid using HTML/CSS and Javascript with search and sort, event bubbling (Amazon onsite)
+💁‍♂️ Design NavBar
+💁‍♂️ Infinite Scroll
+💁‍♂️ Typeahead / autocomplete using trie
+💁‍♂️ Implement Debounce function
+💁‍♂️ Implement tic tac toe
+💁‍♂️ Make snake ladder board
+💁‍♂️ Make calendar of any Month like Date Picker
+💁‍♂️ Implement throttle function ect
+💁‍♂️ Dropdown
+💁‍♂️ Autocomplete
+💁‍♂️ Multi Select
+
+
+C. Engineering Manager Round
+
+Frontend is just UI - just learn “html, css, js”
+
+Easy job, easy money, easy life. This might be potentially what people think of Frontend (the myth)
+
+Fact: There’s so much you can learn in frontend 🔥
+
+
+
+🔸 Network
+
+* Websocket
+* Streams
+* WebRTC
+* http/2
+* QUIC
+
+🔸 Media
+
+* MediaStream
+* Media Recorder
+* Screen Capture
+
+🔸 DOM
+
+* DOM API
+* Intersection Observer
+* Mutation Observer
+* Resize Observer
+* iframes
+
+🔸 Storage, Data, Files
+
+* Cookies
+* Local, Session storage
+* IndexedDB
+* Clipboard
+* File System
+
+🔸 Performance
+
+* Web workers
+* Web vitals
+* Memory profiling
+
+🔸 Graphics
+
+* Canvas
+* WebGL
+
+🔸 Security
+
+* Trusted Type
+* Permissions
+* Encoding
+* CSP, XSS, Mime sniff
+
+🔸 Build
+
+* Treeshaking
+* Code splitting
+* Hot Module Replacement
+* Transpilers & Polyfills
+
+🔸 Asset
+
+* Prefetch, preload
+* Compression techniques - Gzip, Brotli
+* Dynamic image loading
+* Lossy, lossless conversions
+* Pixel density, PPI
+
+🔸 DOM API:
+
+• Selecting nodes
+• Node properties & methods
+• Manipulating UI via DOM
+• Tracking states of elements
+• Element dimension & positions
+
+🔸 Event handling:
+
+• Types of user events
+• Event phases - capturing, bubbling
+• Event delegation
+• Dispatch custom events
+• Behaviour of individual events
+• Understand event driven model
+
+🔸 Browser API:
+
+• Storage, clipboard, Notification, File
+• Fetch, Websockets, WebRTC
+• MediaStream, Recorder, Capture
+
+🔸 Miscellaneous:
+
+• 2D, 3D Graphics using Canvas, WebGL
+• Integrating iframes
+• Webworker
+
+
+
+
+
+
+
+

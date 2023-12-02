@@ -1,0 +1,20 @@
+1. **What is the difference between `null` and `undefined` in JavaScript?**
+  Answer: In JavaScript, both `null` and `undefined` represent the absence of a value. However, they have distinct use cases. `null` is an intentional absence of a value, often used to indicate that a variable has no value or that it has been deliberately set to "nothing." On the other hand, `undefined` means a variable has been declared but has not been assigned any value. It is the default value for uninitialized variables.
+
+2. **Explain the event bubbling and capturing in the context of the DOM.**
+  Answer: Event bubbling and capturing are two phases of event propagation in the DOM. During the capturing phase, events are captured from the outermost ancestor down to the target element. Then, during the bubbling phase, the event travels back up from the target element to the outermost ancestor. By default, events follow the bubbling phase, but you can set the `useCapture` parameter to `true` when adding an event listener to enable the capturing phase.
+
+3. **What are the different ways to handle asynchronous operations in JavaScript?**
+  Answer: JavaScript provides several methods to handle asynchronous operations:
+  - Using callbacks: Callback functions are passed as arguments to asynchronous functions and are executed once the operation completes.
+  - Promises: Promises provide a more structured way to handle asynchronous tasks, allowing chaining and error handling.
+  - Async/Await: Introduced in ES2017, async/await simplifies asynchronous code by allowing developers to write asynchronous logic in a synchronous style.
+
+4. **What is CORS (Cross-Origin Resource Sharing), and how do you enable it on the server?**
+  Answer: CORS is a security feature implemented by web browsers to prevent web pages from making requests to a different domain than the one that served the web page. To enable CORS on the server, you need to include specific HTTP headers in the response. The `Access-Control-Allow-Origin` header allows specific origins to access the resource, while `Access-Control-Allow-Methods` specifies the allowed HTTP methods, and `Access-Control-Allow-Headers` lists the allowed headers.
+
+5. **Explain the purpose of the `localStorage` and `sessionStorage` objects in JavaScript.**
+  Answer:
+  - `localStorage`: The data stored in `localStorage` persists even after the browser is closed and is available across sessions.
+  - `sessionStorage`: The data stored in `sessionStorage` is only available within the same browsing session and is cleared when the tab or window is closed.
+

@@ -1,0 +1,33 @@
+More interview questions and answers can be found in my earlier posts.
+
+❓ Interviewer : Are you familiar with the term "hoisting" in JavaScript?
+
+😎 Priya : In JavaScript, hoisting refers to the process of moving variable and function declarations to the top of their containing scope during the compilation phase, before the code is executed.
+
+❓ Interviewer : What is the difference between variable hoisting and function hoisting?
+
+😎 Priya : Variable hoisting and function hoisting are both parts of the hoisting process, but they work slightly differently. With variable hoisting, the declaration of a variable is moved to the top of its scope, but the assignment remains in place. This means you can access the variable before its declaration, but its value will be undefined. Function hoisting, on the other hand, moves both the declaration and the entire function body to the top of the scope, allowing you to call the function before its actual declaration.
+
+❓Interviewer : Excellent explanation. Can you provide an example of variable hoisting?
+
+😎 Priya : Sure. Take this code snippet:
+console.log(x); // Output: undefined
+var x = 5;
+In this case, the variable `x` is hoisted to the top, so we can access it before its declaration, but its value is `undefined` until it's assigned.
+
+❓ Interviewer : Now, can you demonstrate function hoisting with a simple code snippet?
+
+😎 Priya : Here's an example of function hoisting:
+sayHello(); // Output: "Hello, world!"
+function sayHello() {
+ console.log("Hello, world!");
+}
+In this case, the entire function `sayHello` is hoisted to the top, so we can call it before its declaration.
+
+❓ Interviewer : Now, let's discuss the concept of hoisting in the context of ES6 `let` and `const` declarations. Are these also hoisted?
+
+😎 Priya : Yes, they are hoisted as well, but there's a slight difference. With `let` and `const`, the variable declaration is hoisted, but unlike `var`, they are not initialized with `undefined`. Instead, they remain in the "temporal dead zone" until the actual declaration. Attempting to access them before the declaration results in a reference error.
+
+❓ Interviewer : One last question: How can developers avoid potential issues related to hoisting?
+
+😎 Priya : To avoid hoisting-related issues, developers should follow best practices such as declaring variables and functions before using them, preferably at the top of their scope.Additionally, it's recommended to use `let` and `const` instead of `var`, as they provide more predictable behavior and help prevent some of the pitfalls associated with hoisting.

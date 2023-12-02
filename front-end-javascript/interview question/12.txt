@@ -1,0 +1,31 @@
+More interview questions and answers can be found in my earlier posts.
+
+1. Question: 𝐇𝐨𝐰 𝐜𝐚𝐧 𝐲𝐨𝐮 𝐨𝐩𝐭𝐢𝐦𝐢𝐳𝐞 𝐀𝐏𝐈 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐨𝐧 𝐭𝐡𝐞 𝐟𝐫𝐨𝐧𝐭𝐞𝐧𝐝?
+Answer: Using following ways:
+
+Caching: Implement client-side caching to store and reuse responses, reducing the need for redundant requests.
+
+Batching: Combine multiple requests into a single request to minimize network overhead.
+
+Minimizing Requests: Reduce the number of API calls by fetching only necessary data and avoiding over-fetching.
+
+Compression: Use compression techniques like Gzip to reduce the payload size of API responses.
+
+Lazy Loading: Load data as needed, especially for large datasets or non-essential content.
+
+Pagination: Implement server-side pagination to limit the amount of data retrieved in a single request.
+
+2. Question: 𝐃𝐞𝐬𝐜𝐫𝐢𝐛𝐞 𝐎𝐀𝐮𝐭𝐡 𝟐.𝟎 𝐚𝐧𝐝 𝐢𝐭𝐬 𝐮𝐬𝐞 𝐢𝐧 𝐬𝐞𝐜𝐮𝐫𝐢𝐧𝐠 𝐀𝐏𝐈𝐬.
+Answer: OAuth 2.0 is an authorization framework that allows third-party applications to access a user's resources (such as data) without exposing the user's credentials. It involves the use of access tokens, which are obtained by exchanging a user's credentials (usually username and password) for a token. This token is then used to access protected resources on behalf of the user.
+
+3. Question: 𝐇𝐨𝐰 𝐜𝐚𝐧 𝐲𝐨𝐮 𝐡𝐚𝐧𝐝𝐥𝐞 𝐚𝐬𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 𝐀𝐏𝐈 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐬 𝐢𝐧 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭?
+Answer: Using below ways:
+
+Callbacks: Using callbacks to manage asynchronous code execution.
+
+Promises: Promises provide a cleaner way to handle asynchronous operations and avoid callback hell.
+
+Async/Await: Introduced in ES2017, async/await offers a more readable and concise syntax for working with asynchronous code. The async keyword is used to define an asynchronous function, and await is used to pause execution until a promise is resolved.
+
+4. Question: 𝐖𝐡𝐚𝐭 𝐚𝐫𝐞 𝐂𝐎𝐑𝐒 𝐚𝐧𝐝 𝐡𝐨𝐰 𝐝𝐨 𝐲𝐨𝐮 𝐡𝐚𝐧𝐝𝐥𝐞 𝐭𝐡𝐞𝐦?
+Answer: CORS is a security feature implemented by web browsers to prevent unauthorized cross-origin requests. You might encounter CORS issues when making API requests from a different domain. To handle CORS, the server should include appropriate CORS headers in its responses. On the frontend, you can't directly control CORS behavior, but you can:Ensure the server is properly configured to allow requests from your domain.Use server-side proxies to forward API requests.Adjust request headers (e.g., include mode: 'cors' or credentials: 'include' in the fetch options) with caution, as they might have security implications.

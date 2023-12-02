@@ -1,0 +1,14 @@
+1. Question: What is React.js, and how does it differ from other JavaScript frameworks?
+Answer: React.js is a popular JavaScript library for building user interfaces. It's designed to create dynamic and efficient UI components using a declarative syntax. React's virtual DOM and one-way data flow make it different from other frameworks. Unlike two-way data binding, React uses a unidirectional data flow, and it efficiently updates the actual DOM by comparing changes in a virtual representation of it.
+
+2. Question: Explain the significance of the "props" in React.
+Answer: "Props" (short for properties) are used to pass data from a parent component to a child component. They are read-only and cannot be modified by the child component. Props allow components to communicate and share data in a unidirectional manner, promoting a more predictable flow of data.
+
+3. Question: How does React Router help in building single-page applications (SPAs)?
+Answer: React Router is a library that allows you to handle routing in SPAs. It enables you to create different routes within your application, changing the content displayed based on the URL. React Router provides components like BrowserRouter, Route, Link, and Switch to manage navigation and rendering of different views.
+
+4. Question: What is React context? How does it facilitate the sharing of data between components?
+Answer: React context is a way to share data between components without having to pass props through every level of the component tree. It provides a central place to store and manage global state or values that multiple components might need access to. Context allows you to avoid prop drilling and simplifies the process of sharing data across components.
+
+5. Question: Describe the React component lifecycle methods and their order of execution.
+Answer: The component lifecycle methods are divided into three phases: Mounting, Updating, and Unmounting. The main methods include componentDidMount, componentDidUpdate, and componentWillUnmount. In the newer version of React, these lifecycle methods have been supplemented by React Hooks like useEffect, which covers both side effects and lifecycle behavior.

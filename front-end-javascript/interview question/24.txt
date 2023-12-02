@@ -1,0 +1,15 @@
+1. Question: What is the purpose of a content delivery network (CDN) and how does it benefit website performance?
+Answer: A CDN is a distributed network of servers that store cached copies of static assets (like images, stylesheets, and scripts). When a user requests a resource, the CDN serves it from the server closest to the user's location. This reduces latency and speeds up content delivery, resulting in faster page loads and a better user experience.
+
+2. Question: Describe the concept of Progressive Web Apps (PWAs) and their key features.
+Answer: PWAs are web applications that combine the best features of both web and native apps. They offer features like offline access, push notifications, and the ability to be installed on the user's device. PWAs use service workers to cache resources and enable offline functionality, improving performance and user engagement.
+
+3. Question: Explain the concept of state management in frontend frameworks. How does it help maintain application data?
+Answer: State management involves managing and synchronizing application data across different components or views. In frontend frameworks like React and Vue, state management libraries like Redux or Vuex provide a centralized store for managing application state. This helps maintain a single source of truth, making it easier to update and share data between components.
+
+4. Question: Describe the concept of CSS Grid Layout and how it differs from Flexbox.
+Answer: CSS Grid Layout is a two-dimensional layout system that allows you to create grid-based layouts with rows and columns. It's particularly well-suited for complex layouts. Flexbox, on the other hand, is a one-dimensional layout system that excels at distributing space along a single axis. While Flexbox is great for arranging elements within a container, CSS Grid is better for creating overall layout structures.
+
+5. Question: Explain the concept of tree shaking in the context of optimizing JavaScript bundles.
+Answer: Tree shaking is a process used by modern JavaScript bundlers (like Webpack) to eliminate dead code (unused or unreachable code) from the final bundle. It helps reduce the bundle size and improve loading performance, as only the code actually used by the application is included.
+

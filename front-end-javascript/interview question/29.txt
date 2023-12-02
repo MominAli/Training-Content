@@ -1,0 +1,15 @@
+𝐖𝐡𝐚𝐭'𝐬 𝐭𝐡𝐞 𝐫𝐞𝐝𝐮𝐱 𝐟𝐥𝐨𝐰:
+Redux follows a clear unidirectional data flow: components dispatch actions, which are handled by reducers to compute new state, and connected components then re-render based on this updated state. First, the Redux store is created, holding the entire application's state. Actions, defined with types and creators, are dispatched from components and flow through reducers. Reducers, pure functions, process actions and return new state, keeping immutability. Connected components, using `connect` from `react-redux`, receive updated props reflecting the new state. This controlled flow ensures predictable state changes, enables effective debugging using tools like Redux DevTools, and fosters maintainable, scalable applications. Additionally, Redux middleware can handle async actions and side effects to enhance this process.
+
+Also, find the short detail of Redux flow:
+
+1. Action: Components dispatch actions with types via action creators.
+2. Reducer: Reducers handle actions, compute new state based on old state and action.
+3. Store Update: State is updated in the store with the new computed state.
+4. Connected Component: Connected components receive updated state as props.
+5. Re-rendering: Components re-render to reflect the updated state.
+6. Accessing State: Components access state through mapped props.
+7. Unidirectional Flow: Data flows in a single direction: action -> reducer -> store -> component.
+8. Predictable Changes: Actions trigger known state changes, making debugging easier.
+9. Redux DevTools: Tools help visualize state history and action interactions.
+10. Optional Middleware: Middleware handles async actions or side effects.

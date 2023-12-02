@@ -1,0 +1,53 @@
+There is a 98% chance you will work with a REST API.
+
+Here are 7 things you need to know.
+
+
+𝟭. 𝗖𝗮𝗻 𝗬𝗼𝘂 𝗘𝘅𝗽𝗹𝗮𝗶𝗻 𝗖𝗥𝗨𝗗 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 𝗶𝗻 𝘁𝗵𝗲 𝗖𝗼𝗻𝘁𝗲𝘅𝘁 𝗼𝗳 𝗥𝗘𝗦𝗧?
+
+CRUD (Create, Read, Update, Delete) operations map to HTTP methods (POST, GET, PUT, PATCH, DELETE).
+
+
+𝟮. 𝗪𝗵𝗮𝘁 𝗮𝗿𝗲 𝗖𝗼𝗺𝗺𝗼𝗻 𝗛𝗧𝗧𝗣 𝗦𝘁𝗮𝘁𝘂𝘀 𝗖𝗼𝗱𝗲𝘀, 𝗮𝗻𝗱 𝗪𝗵𝗮𝘁 𝗱𝗼 𝘁𝗵𝗲𝘆 𝗺𝗲𝗮𝗻?
+
+- 200 OK: Successful GET request.
+- 201 Created: Successful POST request and resource created.
+- 204 No Content: Successful DELETE request, no response body.
+- 400 Bad Request: Invalid request data or parameters.
+- 401 Unauthorized: Authentication is required, or credentials are invalid.
+- 403 Forbidden: The authenticated user lacks access to the requested resource.
+- 404 Not Found: The requested resource does not exist.
+- 500 Internal Server Error: The server encountered an error.
+
+
+𝟯. 𝗪𝗵𝗮𝘁 𝗗𝗼𝗲𝘀 𝗜𝘁 𝗠𝗲𝗮𝗻 𝗳𝗼𝗿 𝗮 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜 𝘁𝗼 𝗕𝗲 𝗦𝘁𝗮𝘁𝗲𝗹𝗲𝘀𝘀?
+
+Statelessness ensures that each API request contains all the information needed for processing a request.
+
+
+𝟰. 𝗛𝗼𝘄 𝗗𝗼 𝗬𝗼𝘂 𝗦𝗲𝗰𝘂𝗿𝗲 𝗮 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜?
+
+Security is a significant concern in API design.
+
+Be prepared to discuss authentication and authorization methods like API keys, OAuth, and JWT (JSON Web Tokens).
+
+
+𝟱. 𝗛𝗼𝘄 𝗗𝗼 𝗬𝗼𝘂 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗮 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜?
+
+Versioning strategies:
+- URL versioning
+- Custom headers
+
+Versionen keeps backward compatibility and smooth transitions as the API evolves.
+
+
+𝟲. 𝗪𝗵𝗮𝘁 𝗶𝘀 𝗣𝗮𝗴𝗶𝗻𝗮𝘁𝗶𝗼𝗻, 𝗮𝗻𝗱 𝗛𝗼𝘄 𝗜𝘀 𝗜𝘁 𝗜𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗲𝗱 𝗶𝗻 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀?
+
+Pagination helps in handling large data sets by splitting them into smaller chunks.
+
+Knowing how to implement pagination indicates that you can build scalable APIs.
+
+
+𝟳. 𝗖𝗮𝗻 𝗬𝗼𝘂 𝗗𝗶𝘀𝗰𝘂𝘀𝘀 𝗥𝗮𝘁𝗲 𝗟𝗶𝗺𝗶𝘁𝗶𝗻𝗴 𝗮𝗻𝗱 𝗜𝘁𝘀 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝗰𝗲?
+
+Rate limiting controls the number of API calls from a user in a given time frame, which is required for resource allocation and preventing abuse.

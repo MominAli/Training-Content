@@ -1,0 +1,14 @@
+Interviewer: Explain "this" keyword.
+Priya: The "this" keyword in JavaScript is a reference to the current execution context. It's a way to access the object that a function is bound to when it's invoked. It allows you to interact with properties and methods of that object.
+
+Interviewer: How does the value of the "this" keyword change in different contexts?
+Priya: The value of "this" can vary depending on how a function is called. In the global context, like outside of any function, "this" refers to the global object, which is usually the "window" object in a browser environment. When a function is called as a method of an object, "this" points to the object that the method belongs to. In a constructor function, "this" refers to the instance being created. And in event handlers, "this" usually refers to the DOM element that triggered the event.
+
+Interviewer: What happens with "this" keyword in arrow functions compared to regular functions?
+Priya: In arrow functions, the value of "this" is determined by the surrounding lexical context, meaning it captures the value of "this" from its enclosing function or scope. This is different from regular functions, where "this" is determined by how the function is called. In arrow functions, you don't have to worry about the value of "this" changing based on how the function is invoked.
+
+Interviewer: How can you explicitly bind a value to the "this" keyword using built-in methods?
+Priya: You can use the "bind", "call", or "apply" methods to explicitly set the value of "this" in a function. For example, you can use the "bind" method to create a new function with a specific "this" context. The "call" and "apply" methods allow you to immediately invoke the function with a specified "this" context and arguments.
+
+Interviewer: And what about closures? Can you explain how the "this" keyword is related to closures?
+Priya: Closures are functions that retain access to variables from their outer (enclosing) scopes, even after those outer functions have finished executing. The "this" keyword can sometimes cause confusion in closures, especially when inner functions are involved. In such cases, you might need to capture the value of "this" in a separate variable (like `self` or `that`) to ensure proper access within the closure.

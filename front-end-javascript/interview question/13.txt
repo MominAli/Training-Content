@@ -1,0 +1,24 @@
+More interview questions and answers can be found in my earlier posts.
+
+Question: Different ways of placing a DIV at center with representation.
+Answer:
+1. **Flexbox:** Use the `display: flex;` property on the container and set `justify-content: center;` and `align-items: center;` to center its contents.
+
+2. **Grid:** Apply the `display: grid;` property to the container and use `place-items: center;` to center its contents.
+
+3. **Absolute Positioning:** Position the `<div>` element absolutely within a container using `position: absolute;` and adjust `top`, `left`, `transform` properties to center it.
+
+4. **Text-Align:** If the container's `text-align` property is set to `center`, the contents, including the `<div>` element, will be horizontally centered.
+
+5. **Margin Auto:** Apply `margin: auto;` to the `<div>` element to center it both horizontally and vertically.
+
+6. **Flexbox with Margin Auto:** Combine `display: flex;` on the container and apply `margin: auto;` to the `<div>` element to center it.
+
+7. **Grid with Margin Auto:** Use `display: grid;` on the container and set `margin: auto;` on the `<div>` element for centering.
+
+8. **Table Display:** Set `display: table;` on the container and use `display: table-cell;` with `vertical-align: middle;` for vertical centering.
+
+9. **Transform:** Position the `<div>` element absolutely using `position: absolute;` and apply `transform: translate(-50%, -50%);` to center it both horizontally and vertically.
+
+10. **Viewport Units:** Apply `position: relative;` to the container and use `top: 50vh;` and `left: 50vw;` along with `transform: translate(-50%, -50%);` to center the `<div>` element.
+

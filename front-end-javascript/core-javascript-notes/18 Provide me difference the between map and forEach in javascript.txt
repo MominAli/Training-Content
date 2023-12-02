@@ -1,0 +1,22 @@
+Interviewer: Provide me difference the between map and forEach in javascript !
+
+Here you go..
+
+1. Purpose:
+  - `map`: The `map` method is used to iterate over an array and create a new array by applying a provided function to each element. It is primarily used for transforming data and producing a new array of the same length as the original.
+  - `forEach`: The `forEach` method is used to iterate over an array and perform a specified action or operation on each element. It doesn't create a new array; instead, it's typically used for executing a function for its side effects, like logging or updating variables.
+
+2. Return Value:
+  - `map`: `map` returns a new array that is the result of applying the provided function to each element of the original array.
+  - `forEach`: `forEach` does not return a new array; it returns `undefined`. It's primarily used for its side effects.
+
+3. Usage:
+  - `map`: Use `map` when you want to transform the elements of an array into a new array of the same length.
+  - `forEach`: Use `forEach` when you want to perform some action or operation on each element of an array but don't need to create a new array.
+
+4. Chaining:
+  - `map`: Because `map` returns a new array, you can chain multiple array methods together.
+  - `forEach`: Since `forEach` returns `undefined`, it's not typically used in method chaining for further array operations.
+
+In short, `map` is used when you want to create a new array by transforming each element of an existing array, while `forEach` is used when you want to iterate over an array and perform actions on its elements without creating a new array.
+

@@ -1,0 +1,41 @@
+1. **Question:** How do you include an external CSS file in an HTML document?
+  **Answer:** Use `<link rel="stylesheet" href="styles.css">` in the `<head>` section.
+
+2. **Question:** What's the CSS `float` property used for?
+  **Answer:** It's used to position an element to the left or right of its container, often for creating columns.
+
+3. **Question:** How can you apply styles to an element when a user hovers over it?
+  **Answer:** Use the `:hover` pseudo-class, like `a:hover { ... }`.
+
+4. **Question:** Explain the CSS "box model."
+  **Answer:** It refers to how elements are structured, including content, padding, borders, and margins.
+
+5. **Question:** What's the purpose of the `display` property's `inline-block` value?
+  **Answer:** It makes an element behave like an inline element, but allows for setting width, height, margins, and padding.
+
+6. **Question:** How can you hide an element from view using CSS?
+  **Answer:** Use `display: none;` or `visibility: hidden;`.
+
+7. **Question:** What is a CSS selector? Give an example.
+  **Answer:** A selector targets specific HTML elements for styling. Example: `p { color: blue; }`.
+
+8. **Question:** How do you add a background image to an element?
+  **Answer:** Use `background-image: url("image.jpg");`.
+
+9. **Question:** How can you create a responsive, mobile-friendly layout?
+  **Answer:** Use media queries to adjust styles based on different screen sizes.
+
+10. **Question:** Explain the purpose of CSS preprocessors like Sass or Less.
+  **Answer:** They extend CSS's capabilities by adding variables, nesting, functions, and other features to make stylesheets more maintainable and efficient.
+
+11. **Question:** What's the difference between `:nth-child()` and `:nth-of-type()`?
+  **Answer:** `:nth-child()` selects elements based on their position in a parent, while `:nth-of-type()` selects elements of a specific type based on their position.
+
+12. **Question:** How can you create a CSS animation?
+  **Answer:** Use `@keyframes` to define the animation and apply it using the `animation` property.
+
+13. **Question:** What's the purpose of the `rem` unit?
+  **Answer:** It stands for "root em" and is relative to the font size of the root (`html`) element.
+
+14. **Question:** Explain the CSS `position` property and its values.
+  **Answer:** It controls the positioning of an element. Values include `static`, `relative`, `absolute`, `fixed`, and `sticky`.

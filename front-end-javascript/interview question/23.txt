@@ -1,0 +1,14 @@
+1. Question: Explain the concept of Virtual DOM and its advantages.
+Answer: The Virtual DOM is an abstraction of the actual DOM in memory. It's used by frameworks like React to improve performance. When changes occur, React compares the Virtual DOM with the real DOM and updates only the necessary changes, minimizing direct manipulation of the actual DOM. This leads to faster updates and a smoother user experience.
+
+2. Question: What is server-side rendering (SSR) and client-side rendering (CSR)? Compare the benefits and drawbacks of each approach.
+Answer: Server-side rendering involves rendering HTML on the server and sending it to the client, resulting in faster initial page loads and better SEO. Client-side rendering, on the other hand, loads a minimal HTML page and fetches data to render the content on the client side. SSR provides better SEO and performance for slower devices, but can be slower for subsequent navigations. CSR provides a more interactive user experience but might have slower initial loads.
+
+3. Question: Describe the concept of WebSockets and when you might use them.
+Answer: WebSockets is a protocol that enables full-duplex communication channels over a single TCP connection. Unlike traditional HTTP, which is request-response based, WebSockets allow both the server and the client to send data asynchronously. They are used for real-time applications like chat applications, online gaming, and live data feeds, where immediate updates are crucial.
+
+4. Question: What is lazy loading in the context of frontend development? How does it benefit performance?
+Answer: Lazy loading is a technique that defers loading non-critical resources (like images or scripts) until they are needed. This improves the initial page load time by reducing the amount of data that needs to be fetched. As users scroll or interact with the page, resources are loaded on-demand, enhancing perceived performance and reducing unnecessary data transfer.
+
+5. Question: Explain the concept of Single Page Applications (SPAs) and their pros and cons.
+Answer: SPAs are web applications that load a single HTML page and dynamically update content as users navigate, often using JavaScript frameworks like Angular, React, or Vue. They provide a more seamless and responsive user experience, as only portions of the page are updated. However, they can have longer initial load times due to loading all the necessary JavaScript upfront.

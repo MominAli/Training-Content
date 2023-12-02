@@ -1,0 +1,24 @@
+Interviewer: Can you start by explaining what a closure is?
+Priya: A closure in JavaScript is a function that retains access to variables from its outer (enclosing) scope even after the outer function has finished executing. It essentially "closes over" the variables, allowing the inner function to access and manipulate them, even when the outer function's execution context is gone. Closures are functions that retain access to variables from their enclosing scope. They are powerful tools for creating private variables, data encapsulation, and maintaining access to variables after their enclosing functions have executed.
+
+Interviewer: Could you provide an example of a closure and explain why it's considered a closure?
+Priya: Of course.
+function outerFunction() {
+  let outerVariable = 'I am from the outer scope';
+  function innerFunction() {
+    console.log(outerVariable);
+  }
+  return innerFunction;
+}
+const closureExample = outerFunction();
+closureExample();
+The `innerFunction` has access to the `outerVariable` even though `outerFunction` has already executed. This is a closure because `innerFunction` "closes over" the `outerVariable`, maintaining a reference to it.
+
+Interviewer: What's the usecase of Closures?
+Priya: Closures are often used for data encapsulation and creating private variables in JavaScript. They allow you to hide data from the global scope and limit access to it, preventing unintended modifications. Additionally, closures are frequently used in scenarios like event handlers, callbacks, and setTimeout where you want to maintain access to certain variables after the outer function has completed its execution.
+
+Interviewer: How do closures relate to the "this" keyword?
+Priya: Closures and the "this" keyword can sometimes interact in interesting ways. The value of "this" inside a closure depends on how the closure is called. If a closure is called as a method of an object, "this" will refer to that object. If not, "this" might refer to the global object or be undefined in strict mode. It's important to understand this behavior to avoid confusion.
+
+Interviewer: Could you share any potential drawbacks or concerns when using closures?
+Priya: While closures are powerful, they can also lead to memory leaks if not used carefully. If a closure holds references to large objects or resources, those objects won't be garbage collected even if they're no longer needed, because the closure still references them.

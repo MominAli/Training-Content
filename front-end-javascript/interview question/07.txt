@@ -1,0 +1,38 @@
+1. Question: What will be the output of console.log(5 - "2")?
+Answer: The output will be 3. JavaScript will perform the subtraction operation, converting the string "2" to a number.
+
+2. Question: Given the variable bool = true, what will be the output of console.log(typeof bool)?
+Answer: The output will be "boolean". The typeof operator will return the data type of the variable, which is boolean in this case.
+
+3. Question: What will be the output of console.log(null)?
+Answer: The output will be null.
+
+4. Question: What will be the output of console.log(typeof [1, 2, 3]?
+Answer: The output will be "object". In JavaScript, arrays are considered objects.
+
+5. Question: Given the object person = { name: "Alice", age: 30 }, what will be the output of console.log(person)?
+Answer: The output will be an object representation of `person`: { name: 'Alice', age: 30 }.
+
+6. Question: What will be the output of console.log(undefined)?
+Answer: The output will be undefined.
+
+7. Question: If you have three variables x = 5, y = "2", and z = "3", what will be the output of console.log(x + y + z)?
+Answer: The output will be "523". JavaScript will perform string concatenation.
+
+8. Question: What will be the output of console.log(true + true)?
+Answer: The output will be 2. In JavaScript, `true` is treated as 1 in numeric operations.
+
+9. Question: Given the variable arr = [1, 2, 3], what will be the output of console.log(arr)?
+Answer: The output will be the array representation of arr: [1, 2, 3].
+
+10. Question: What will be the output of console.log(typeof "hello")?
+Answer: The output will be "string".
+
+11. Question: What will be the output of console.log(5 - "2")?
+Answer: The output will be 3. JavaScript will perform the subtraction operation, converting the string "2" to a number.
+
+12. Question: Given the variable bool = true, what will be the output of console.log(typeof bool)?
+Answer: The output will be "boolean". The typeof operator will return the data type of the variable, which is boolean in this case.
+
+13. Question: What will be the output of console.log("2" * "3")?
+Answer: The output will be 6. JavaScript will perform the multiplication operation, converting both strings "2" and "3" to numbers.

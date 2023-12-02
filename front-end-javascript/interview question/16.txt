@@ -1,0 +1,47 @@
+More interview questions and answers can be found in my earlier posts.
+
+😎 𝗖𝗼𝗱𝗶𝗻𝗴 𝘁𝗶𝗽𝘀 𝗶𝗻 𝗼𝗻𝗲 𝗹𝗶𝗻𝗲 𝗲𝗮𝗰𝗵:
+1. Keep functions short and focused on a single task.
+2. Choose meaningful variable and function names.
+3. Comment code to explain complex logic or assumptions.
+4. Test edge cases and unexpected inputs in your code.
+5. Use version control for tracking changes and collaboration.
+6. Break down problems into smaller steps before coding.
+7. Avoid global variables for cleaner code structure.
+8. Prioritize code readability over cleverness.
+9. Minimize nested loops and conditional statements.
+10. Don't optimize prematurely; profile before optimizing.
+11. Follow the DRY principle (Don't Repeat Yourself).
+12. Use descriptive commit messages for clarity.
+13. Handle errors gracefully with proper error messages.
+14. Write unit tests for critical code paths.
+15. Use consistent indentation and formatting.
+16. Leverage libraries and frameworks for efficiency.
+17. Refactor often to maintain code quality.
+18. Avoid deeply nested function calls.
+19. Keep functions and classes small and focused.
+20. Choose appropriate data structures for efficient operations.
+21. Avoid hardcoding; use constants or configuration.
+22. Plan and sketch out your code before coding.
+23. Focus on solving one problem at a time.
+24. Consider readability when choosing coding shortcuts.
+25. Seek feedback and learn from your code reviews.
+26. Use meaningful variable names for loop iterators.
+27. Avoid over-commenting; let your code speak for itself.
+28. Use consistent naming conventions across your codebase.
+29. Opt for simplicity and clarity over complexity.
+30. Keep your codebase organized and well-structured.
+31. Practice debugging by systematically eliminating possibilities.
+32. Avoid overly clever or cryptic code constructs.
+33. Write self-documenting code with clear logic.
+34. Keep your functions and classes focused on a single responsibility.
+35. Use whitespace to improve code readability.
+36. Be mindful of time and space complexity in algorithms.
+37. Choose the right data type for your variables.
+38. Avoid unnecessary nested code blocks.
+39. Regularly revisit and refactor older code for improvements.
+40. Understand the problem fully before writing code.
+41. Plan for error handling and edge cases from the start.
+42. Avoid excessive code comments; strive for self-explanatory code.
+43. Follow conventions to make your codebase consistent.
+44. Keep external dependencies up to date for security and features.

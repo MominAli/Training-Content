@@ -1,0 +1,20 @@
+
+01 HTML 5
+02 CSS3
+03 BOOTSTRAP 4
+04 JAVASCRIPT + ES 6 concept
+05 ANGULAR 12
+06 TYPESCRIPT
+07 OOPS Concept
+08.NET Core Framework
+09 .NET CORE API + EF Core + LINQ
+10 C#
+11 SOLID Principal 12 Design Pattern
+13 SQL Server 2016 14 Problem skills
+15 Data Stuctures
+16 Git/Bitbucket / Source Tree / Nginx / Azure CI CD/ Docker / basic understanding of kubernates
+17 Project -
+18 Achivments -
+19 Chanllanges -
+20 My Goal
+21 weakness / strongness

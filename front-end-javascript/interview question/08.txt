@@ -1,0 +1,29 @@
+More interview questions and answers can be found in my earlier posts.
+
+1. Question: What are the different access modifiers available in TypeScript classes?
+Answer: TypeScript supports three access modifiers for class members: public, private, and protected. The default is public.
+public: Members are accessible from any part of the code.
+private: Members are accessible only within the class that defines them.
+protected: Members are accessible within the class and its subclasses.
+
+2. Question: How does TypeScript handle type inference?
+Answer: TypeScript uses type inference to automatically infer the type of a variable based on its assigned value. If TypeScript can determine the type from the assignment, you don't need to explicitly specify the type.
+let age = 30; // TypeScript infers age as type number
+let name = "John"; // TypeScript infers name as type string
+
+3. Question: Explain the concept of interfaces in TypeScript.
+Answer: Interfaces in TypeScript are used to define the structure or shape of an object. They provide a way to enforce a specific structure on an object and ensure that the object contains certain properties with specific types. Interfaces help achieve strong typing and enable better code documentation and readability.
+interface Person {
+name: string;
+age: number;
+email?: string; // Optional property
+}
+
+4. Question: How do you define a variable with a specific type in TypeScript?
+Answer: In TypeScript, you can define a variable with a specific type using the colon (:) syntax. For example:
+let age: number = 30;
+let name: string = "John";
+let isEmployed: boolean = true;
+
+5. Question: What is TypeScript, and how does it differ from JavaScript?
+Answer: TypeScript is a superset of JavaScript developed by Microsoft. It adds optional static typing, interfaces, classes, and other features to JavaScript. TypeScript code is transpiled into standard JavaScript, making it compatible with all modern browsers and JavaScript environments. The key difference is that TypeScript allows developers to catch type-related errors during development and provides better tooling support for large-scale applications.

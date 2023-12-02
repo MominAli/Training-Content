@@ -1,0 +1,25 @@
+Do's and Don'ts for mastering technical/coding interviews-
+
+DO’s:
+
+✅UNDERSTAND THE PROBLEM: Carefully read and comprehend the problem statement before attempting to solve it. Seek from the interviewer if needed.
+
+✅COMMUNICATE EFFECTIVELY: Clearly explain your thought process, ask questions, and seek feedback during the interview. Effective communication is crucial to showcase your understanding and problem-solving abilities.
+
+✅THINK OUT LOUD: Walk the interviewer through your approach, explaining why you are choosing a particular solution or algorithm. This demonstrates your reasoning skills and allows the interviewer to follow your thought process.
+
+✅USE EXAMPLES: When explaining complex concepts, use real-world examples or analogies to make your explanations clearer.
+
+✅TEST & DEBUG: After writing your code, run sample test cases to ensure its correctness. Be proactive in identifying and fixing any bugs in your solution.
+
+DON’Ts:
+
+❌DON'T RUSH: Avoid the urge to jump into coding immediately. Take your time to comprehend the problem and outline your strategy.
+
+❌DON'T PANIC: If you encounter a challenging problem, stay calm. Panic can cloud your thinking and lead to errors.
+
+❌DON'T IGNORE CONSTRAINTS: Ensure that your solutions consider time and space constraints mentioned in the problem statement. Ignoring them can result in incomplete or inefficient solutions.
+
+❌DON'T IGNORE EDGE CASES: Don't skip over edge cases or corner scenarios. Handling edge cases shows attention to detail and robust problem solving.
+
+❌DON'T DISMISS ALTERNATIVE SOLUTIONS: Acknowledge alternative approaches, even if you prefer a particular one. Be open to discussing and learning from different perspectives.

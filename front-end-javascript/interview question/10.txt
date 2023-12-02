@@ -1,0 +1,39 @@
+More interview questions and answers can be found in my earlier posts.
+
+1. Question: 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭 𝐚 𝐃𝐞𝐛𝐨𝐮𝐧𝐜𝐞 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐫 𝐖𝐫𝐢𝐭𝐞 𝐚 𝐝𝐞𝐛𝐨𝐮𝐧𝐜𝐞 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐭𝐡𝐚𝐭 𝐝𝐞𝐥𝐚𝐲𝐬 𝐢𝐧𝐯𝐨𝐤𝐢𝐧𝐠 𝐚 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐮𝐧𝐭𝐢𝐥 𝐚𝐟𝐭𝐞𝐫 𝐧 𝐦𝐢𝐥𝐥𝐢𝐬𝐞𝐜𝐨𝐧𝐝𝐬 𝐡𝐚𝐯𝐞 𝐞𝐥𝐚𝐩𝐬𝐞𝐝 𝐬𝐢𝐧𝐜𝐞 𝐭𝐡𝐞 𝐥𝐚𝐬𝐭 𝐭𝐢𝐦𝐞 𝐭𝐡𝐞 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐰𝐚𝐬 𝐢𝐧𝐯𝐨𝐤𝐞𝐝.
+Answer: function debounce(func, delay) {
+ let timeoutId;
+ return function (...args) {
+  clearTimeout(timeoutId);
+  timeoutId = setTimeout(() => {
+   func.apply(this, args);
+  }, delay);
+ };
+}
+
+const debouncedFunction = debounce(() => {
+ console.log('Debounced function invoked');
+}, 300);
+
+debouncedFunction(); // This call will be delayed by 300ms
+
+2. Question: 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭 𝐓𝐡𝐫𝐨𝐭𝐭𝐥𝐞 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐨𝐫 𝐖𝐫𝐢𝐭𝐞 𝐚 𝐭𝐡𝐫𝐨𝐭𝐭𝐥𝐞 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐭𝐡𝐚𝐭 𝐥𝐢𝐦𝐢𝐭𝐬 𝐭𝐡𝐞 𝐢𝐧𝐯𝐨𝐜𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐚 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐭𝐨 𝐨𝐧𝐜𝐞 𝐞𝐯𝐞𝐫𝐲 𝐧 𝐦𝐢𝐥𝐥𝐢𝐬𝐞𝐜𝐨𝐧𝐝𝐬.
+Answer: function throttle(func, limit) {
+ let inThrottle;
+ return function (...args) {
+  if (!inThrottle) {
+   func.apply(this, args);
+   inThrottle = true;
+   setTimeout(() => {
+    inThrottle = false;
+   }, limit);
+  }
+ };
+}
+
+const throttledFunction = throttle(() => {
+ console.log('Throttled function invoked');
+}, 300);
+
+throttledFunction(); // This call will be limited to once every 300ms
+

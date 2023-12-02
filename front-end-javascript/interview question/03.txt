@@ -1,0 +1,41 @@
+1. **Explain the concept of hoisting in JavaScript.**
+  Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, allowing them to be used before they are declared.
+
+2. **What are arrow functions in JavaScript? How are they different from regular functions?**
+  Arrow functions are a shorthand syntax for writing functions in JavaScript. They have a more concise syntax, and they do not bind their own `this` value, instead inheriting the `this` value from the enclosing lexical scope.
+
+3. **What is a callback function? Can you provide an example of using a callback?**
+  A callback function is a function that is passed as an argument to another function and is executed after the completion of that function. An example of using a callback is with asynchronous operations like `setTimeout()`:
+
+function doSomethingAsync(callback) {
+   setTimeout(function () {
+    console.log("Async operation completed");
+    callback();
+   }, 1000);
+  }
+  function afterAsync() {
+   console.log("After async operation");
+  }
+  doSomethingAsync(afterAsync);
+
+
+4. **What are the differences between `localStorage` and `sessionStorage` in JavaScript?**
+  - `localStorage`: Data stored in `localStorage` persists even after the browser is closed and is accessible across tabs and windows of the same domain.
+  - `sessionStorage`: Data stored in `sessionStorage` is available only during the session and is lost when the session ends or the browser is closed.
+
+5. **Explain the concept of event delegation and why it is useful.**
+  Event delegation is a technique where you attach an event listener to a parent element instead of individual child elements. This is useful for improving performance and memory usage, especially when dealing with a large number of dynamically generated elements, as it avoids adding event listeners to each individual element.
+
+6. **What are the different ways to include CSS styles in an HTML document?**
+  CSS styles can be included in an HTML document through:
+  - Inline styles using the `style` attribute.
+  - Internal styles using the `<style>` tag within the `<head>` section.
+  - External styles by linking an external CSS file using the `<link>` tag.
+
+7. **What are the different ways to loop over an array in JavaScript?**
+  JavaScript offers several ways to loop over an array:
+  - `for` loop
+  - `forEach()` method
+  - `for...of` loop
+  - `map()` method
+  - `filter()` method
