@@ -1,0 +1,50 @@
+<nav class="navbar bg-dark">
+    <div class="container-fluid">
+        <a style="color: white; margin-left: 45%;">ADD PRODUCT</a>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <form #addproduct="ngForm" (ngSubmit)="addproduct.form.valid && adddata(addproduct.value)">
+                    <div class="mb-3">
+                      <label>Product Id</label>
+                      <input type="email" class="form-control" name="productId" #productId="ngModel"ngModel placeholder="Product ID" required> 
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Product Name</label>
+                        <input type="email" class="form-control" name="productname" #productname="ngModel"ngModel placeholder="Product Name" required> 
+                      </div>
+
+                      <div class="mb-3">
+                        <label>Product price</label>
+                        <input type="email" class="form-control" name="productprice" #productprice="ngModel"ngModel placeholder="Price" required> 
+                      </div>
+
+                      <div class="mb-3">
+                        <label>Product Category</label>
+                        <input type="email" class="form-control" name="productcategory" #productcategory="ngModel"ngModel placeholder="Category" required> 
+                      </div>
+
+                      <div class="mb-3">
+                        <label>Product Description</label>
+                        <input type="email" class="form-control" name="productdescription" #productdescription="ngModel"ngModel placeholder="Description" required> 
+                      </div>
+
+                      <div class="mb-3">
+                        <label>Product URL</label>
+                        <input type="email" class="form-control" name="producturl" #producturl="ngModel"ngModel placeholder="producturl" required> 
+                      </div>
+
+                      <div class="button">
+                        <button type="submit" class="btn btn-primary">Add Product</button>
+                        <button routerLink="/-kendo-dynamic-grid" type="submit" class="btn btn-warning mx-2">View Product</button>
+                      </div>
+                    
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>

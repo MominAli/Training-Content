@@ -1,0 +1,29 @@
+<nav class="navbar bg-dark">
+    <div class="container-fluid">
+        <a style="color: white; margin-left: 45%;">VIEW PRODUCT DETAILS</a>
+        <button routerLink="/" class="btn btn-warning">Back</button>
+    </div>
+</nav>
+
+<kendo-grid [data]="products">
+    <kendo-grid-column field="id" title="ID"></kendo-grid-column>
+    <kendo-grid-column field="productname" title="productname"></kendo-grid-column>
+    <kendo-grid-column field="productprice" title="productprice"></kendo-grid-column>
+    <kendo-grid-column field="productcategory" title="productcategory"></kendo-grid-column>
+    <kendo-grid-column field="productdescription" title="productdescription"></kendo-grid-column>
+    <kendo-grid-column field="producturl" title="producturl"></kendo-grid-column>
+    
+    <kendo-grid-column 
+    *ngFor="let items of products" 
+    field="{{items.id}}" 
+    field="{{items.productId}}" 
+    field="{{items.productname}}" 
+    field="{{items.productprice}}" 
+    field="{{items.productcategory}}" 
+    field="{{items.productdescription}}"
+    field=[src]="items.Image" alt="Item Image" >
+    </kendo-grid-column>
+    <ng-template kendoGridCellTemplate let-dataItem>
+        <img [src]="dataItem.imageUrl" alt="Item Image" style="max-width: 100px; max-height: 100px;">
+      </ng-template>
+</kendo-grid>

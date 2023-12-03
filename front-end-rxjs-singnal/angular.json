@@ -1,17 +1,11 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "286b3547-fe4c-4fe6-9531-727245e1e302"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "KendoUI-Training": {
+    "front-end-rxjs-singnal": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        },
         "@schematics/angular:application": {
           "strict": true
         }
@@ -23,21 +17,17 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/kendo-ui-training",
+            "outputPath": "dist/front-end-rxjs-singnal",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              {
-                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
-              },
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -78,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "KendoUI-Training:build:production"
+              "browserTarget": "front-end-rxjs-singnal:build:production"
             },
             "development": {
-              "browserTarget": "KendoUI-Training:build:development"
+              "browserTarget": "front-end-rxjs-singnal:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -89,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "KendoUI-Training:build"
+            "browserTarget": "front-end-rxjs-singnal:build"
           }
         },
         "test": {
@@ -99,16 +89,12 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              {
-                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
-              },
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -116,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "KendoUI-Training"
+  "defaultProject": "front-end-rxjs-singnal"
 }
