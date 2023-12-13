@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'front-end-tailwind-angular';
+
+  // guide line tailwind with angular
+  // https://tailwindcss.com/docs/guides/angular
 }
