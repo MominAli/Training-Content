@@ -1,3 +1,9 @@
+/* ==========================================================================================================
+Name : Ramzan Ali
+Description : Tailwind Training
+Link : https://tailwindcss.com/docs/guides/angular
+Creatd Date : 14 Dec 2023
+=============================================================================================================*/
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,6 +14,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'front-end-tailwind-angular';
 
-  // guide line tailwind with angular
-  // https://tailwindcss.com/docs/guides/angular
 }
