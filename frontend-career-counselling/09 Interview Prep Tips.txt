@@ -1,0 +1,29 @@
+After taking 200+ interviews in the past 5 years. Here are some tips to help you ace your technical interview-
+
+1. Slow Down and Think:
+
+Don't rush into coding! Repeat the question, ask clarifying questions, and validate all assumptions with examples.
+
+2. Showcase Your Thought Process:
+
+Walk through 1-2 sample inputs/outputs, including edge cases and use cases. Explain your logic clearly, demonstrating how you reach solutions.
+
+3. Master the Big Picture:
+
+Before diving into code, verbalize the high-level logical steps and data structures you plan to use. This shows your understanding of the problem and ability to plan effectively. ️
+
+4. Think Beyond the Obvious:
+
+Go beyond standard test cases and brainstorm potential boundary scenarios. This demonstrates your problem-solving skills and critical thinking.
+
+5. Time Management Matters:
+
+Understand the interview format and how many questions to expect. Allocate your time wisely and focus on delivering your best work.
+
+
+Remember: The interview is a conversation, not a race. Take your time, carefully discuss each step, and utilize the full allotted time.
+
+Don't stress about optimizations at the end; focus on demonstrating your knowledge and thought process throughout the interview.
+
+What are your best interview tips? Comment below!!
+Ac
