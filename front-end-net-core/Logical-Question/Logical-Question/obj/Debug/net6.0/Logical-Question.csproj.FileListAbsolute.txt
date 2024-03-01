@@ -1,0 +1,14 @@
+E:\.net core\Logical-Question\Logical-Question\bin\Debug\net6.0\Logical-Question.exe
+E:\.net core\Logical-Question\Logical-Question\bin\Debug\net6.0\Logical-Question.deps.json
+E:\.net core\Logical-Question\Logical-Question\bin\Debug\net6.0\Logical-Question.runtimeconfig.json
+E:\.net core\Logical-Question\Logical-Question\bin\Debug\net6.0\Logical-Question.dll
+E:\.net core\Logical-Question\Logical-Question\bin\Debug\net6.0\Logical-Question.pdb
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\Logical-Question.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\Logical-Question.AssemblyInfoInputs.cache
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\Logical-Question.AssemblyInfo.cs
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\Logical-Question.csproj.CoreCompileInputs.cache
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\Logical-Question.dll
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\refint\Logical-Question.dll
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\Logical-Question.pdb
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\Logical-Question.genruntimeconfig.cache
+E:\.net core\Logical-Question\Logical-Question\obj\Debug\net6.0\ref\Logical-Question.dll
